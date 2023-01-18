@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'build completed'
         retry(count: 3) {
-          sh 'gfghfghfh'
+          sh 'date'
         }
 
       }
