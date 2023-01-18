@@ -16,18 +16,21 @@ pipeline {
         stage('Test Stages') {
           steps {
             echo 'Test Stages is starting'
+            sh 'date'
           }
         }
 
         stage('Test1') {
           steps {
             echo 'test1 is starting'
+            sh 'date'
           }
         }
 
         stage('Test2') {
           steps {
             echo 'test2 is starting'
+            sh 'date'
           }
         }
 
